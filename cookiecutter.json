@@ -1,0 +1,8 @@
+{
+	"project_name": "project-name",
+	"short_description": "My project",
+	"long_description": "An example of a main project using MLflow",
+    "mlflow_experiment_production": "mlflow-experiment-production",
+    "mlflow_experiment_staging": "mlflow-experiment-staging",
+    "mlflow_experiment_development": "mlflow-experiment-development"
+}

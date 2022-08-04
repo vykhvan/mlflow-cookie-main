@@ -1,0 +1,18 @@
+name: {{cookiecutter.project_name}}
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      
+      config:
+        description: Configuration environment
+        type: str
+        default: config-prod.yaml
+      
+      steps:
+        description: Comma-separated list of steps to execute
+        type: str
+        default: all
+      
+    command: "python main.py --config {config} --steps {steps}"

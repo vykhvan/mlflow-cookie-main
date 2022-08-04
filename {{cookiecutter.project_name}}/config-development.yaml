@@ -1,0 +1,7 @@
+main:
+  experiment_name: {{cookiecutter.mlflow_experiment_development}}
+  MLFLOW_TRACKING_URI: ""
+  MLFLOW_S3_ENDPOINT_URL: ""
+# Components
+data_ingest:
+  raw_data: "/data/raw_data.parquet"
